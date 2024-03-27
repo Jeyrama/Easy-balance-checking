@@ -58,3 +58,5 @@ function balance(book) {
   entries.push('Average expense  ' + (totalExpense / (entries.length - 2)).toFixed(2));
   return entries.join("\r\n");
 }
+
+// or
